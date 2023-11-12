@@ -9,3 +9,9 @@ nothing really
 5. mount the .iso file to a folder and copy bzImage and init.cpio
 6. umount the folder
 7. use qemu to try the most barebones functional linux kernel(the files will not save after reboot!!!!)
+
+# HOW TO RUN IT
+1. use something like qemu or virtualbox
+2. when you get to the SYSLINUX prompt type /bzImage -initrd=init1.cpio
+3. smash enter when the kernel stops loading
+4. have fun
